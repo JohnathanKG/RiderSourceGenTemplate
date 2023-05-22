@@ -12,6 +12,6 @@ public class HelloWorldGen : IIncrementalGenerator
 
     private static void PostInitializationCallback(IncrementalGeneratorPostInitializationContext context)
     {
-        context.AddSource($"{nameof(MySolution)}.g.cs", $@"public class HelloWorld {{ static public string Message => ""Hello World!""; }}");
+        context.AddSource($"{nameof(MySolution)}.g.cs", $@"public static class HelloWorld {{ public const string Message => ""Hello World!""; }}");
     }
 }
