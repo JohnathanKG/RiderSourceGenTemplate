@@ -1,0 +1,12 @@
+{
+    "author": "Johnathan K",
+    "name": "Roslyn Source Generator",
+    "description": "A template for a Roslyn Source Generator.",
+    "identity": "RoslynSourceGenerator",
+    "shortName": "sourcegen",
+    "tags": {
+      "language": "C#",
+      "type": "solution"
+    },
+    "sourceName": "MySolution"
+  }
