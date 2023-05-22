@@ -8,7 +8,6 @@ public class HelloWorldGen : IIncrementalGenerator
     public void Initialize(IncrementalGeneratorInitializationContext context)
     {
         context.RegisterPostInitializationOutput(PostInitializationCallback);
-            
     }
 
     private static void PostInitializationCallback(IncrementalGeneratorPostInitializationContext context)
